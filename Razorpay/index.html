@@ -1,14 +1,87 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Razorpay</title>
-    <link href="/src/styles.css" rel="stylesheet">
+    <link href="/src/styles.css" rel="stylesheet" />
   </head>
   <body>
-    <div id="app"></div>
+    <nav class="bg-deep-blue">
+      <div
+        class="relative w-[1080px] mx-auto flex items-center justify-between"
+      >
+        <a href="/" class="cursor-pointer py-7 pr-7">
+          <img src="./images/logo-dark.svg" width="125px" height="30px" />
+        </a>
+        <ul class="flex space-x-7">
+          <li
+            class="text-white font-family-mullish py-7 hover:text-light-blue cursor-pointer transition-all duration-200 relative group"
+          >
+            <a href="#">Payments</a>
+            <div
+              class="absolute bottom-0 w-full h-1 bg-light-blue hidden group-hover:block transition-all duration-200"
+            ></div>
+          </li>
+          <li
+            class="text-white font-family-mullish py-7 hover:text-light-blue cursor-pointer transition-all duration-200 relative group"
+          >
+            <a href="#">Banking</a>
+            <div
+              class="absolute bottom-0 w-full h-1 bg-light-blue hidden group-hover:block transition-all duration-200"
+            ></div>
+          </li>
+          <li
+            class="text-white font-family-mullish py-7 hover:text-light-blue cursor-pointer transition-all duration-200 relative group"
+          >
+            <a href="#">Corporate Card</a>
+          </li>
+          <li
+            class="text-white font-family-mullish py-7 hover:text-light-blue cursor-pointer transition-all duration-200 relative group"
+          >
+            <a href="#">Payroll</a>
+          </li>
+          <li
+            class="text-white font-family-mullish py-7 hover:text-light-blue cursor-pointer transition-all duration-200 relative group"
+          >
+            <a href="#">Resources</a>
+            <div
+              class="absolute bottom-0 w-full h-1 bg-light-blue hidden group-hover:block transition-all duration-200"
+            ></div>
+          </li>
+          <li
+            class="text-white font-family-mullish py-7 hover:text-light-blue cursor-pointer transition-all duration-200 relative group"
+          >
+            <a href="#">Support</a>
+            <div
+              class="absolute bottom-0 w-full h-1 bg-light-blue hidden group-hover:block transition-all duration-200"
+            ></div>
+          </li>
+          <li
+            class="text-white font-family-mullish py-7 hover:text-light-blue cursor-pointer transition-all duration-200 relative group"
+          >
+            <a href="#">Pricing</a>
+            <div
+              class="absolute bottom-0 w-full h-1 bg-light-blue hidden group-hover:block transition-all duration-200"
+            ></div>
+          </li>
+        </ul>
+        <div class="flex space-x-4">
+          <img src="./images/india-flag.svg" width="28px" height="20px" />
+          <button
+            class="py-3 px-5 font-family-mullish text-white border-light-blue border rounded-sm text-sm font-bold"
+          >
+            Log in
+          </button>
+          <button
+            class="py-3 px-4 font-family-mullish rounded-sm text-sm bg-white text-light-blue-300 border transition-all duration-200 hover:text-light-blue-500"
+          >
+            Sign up
+          </button>
+        </div>
+      </div>
+    </nav>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
